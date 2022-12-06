@@ -1,0 +1,21 @@
+{
+  "name": "evm-blockserver",
+  "version": "1.0.0",
+  "description": "Connects to any EVM and starts to monitor events",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.10"
+  },
+  "dependencies": {
+    "@azure/event-hubs": "^5.8.0",
+    "@azure/storage-blob": "^12.12.0",
+    "ethers": "^5.7.2",
+    "node-fetch": "^2.6.7",
+    "ws": "^8.11.0"
+  }
+}
